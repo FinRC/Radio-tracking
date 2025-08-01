@@ -1,0 +1,42 @@
+http://havu.hylly.org/
+
+$POS|WGS84|PA1|2017-02-30|00:13:28|60N17.668|24E36.454|82|vapaa*
+http://havu.hylly.org/api/msg?msg=$POS|WGS84|UnitAlias|datenow|timenow|Lat|Lon|0|0*
+
+#
+Tyyppi
+Tarkoitus
+1
+String-const
+POS, sanoman tyyppi
+2
+String
+Käytetty koordinaatisto:
+- WGS84 (GPS:ltä)
+- ETRS-TM35FIN (Scomsin sisäinen)
+3
+String
+Laite
+4
+String
+Päivämäärä yyyy-mm-dd
+5
+String
+Kellonaika hh:mm:ss
+6
+String
+Northing joko
+- degN/Smin.min (WGS84) tai
+- kokonaisluku (ETRS-TM35FIN)
+7
+String
+Easting joko
+- degE/Wmin.min (WGS84) tai
+- kokonaisluku (ETRS-TM35FIN)
+8
+Unsigned int
+Korkeus merenpinnasta
+9
+String
+Statusteksti (Vapaa, Matkalla, Tehtävällä, Tauolla, Nukkumassa)
+
